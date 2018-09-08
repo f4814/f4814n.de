@@ -1,0 +1,13 @@
+.stack-work
+*.DS_Store
+*.o
+*.hi
+
+_site/*
+_cache/*
+
+*/_site/*
+*/_cache/*
+*/site
+
+default-theme/site

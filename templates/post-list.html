@@ -1,0 +1,19 @@
+$for(posts)$
+    <div>
+        <h3 style="display:inline">
+            <a href="$url$">$title$</a>
+        </h3>
+        $date$
+        <br>
+        <div style="color:DimGray">
+            $if(tags)$
+            Tags: $tags$
+            <br>
+            $endif$
+            $if(teaser)$
+            Teaser: $teaser$
+            $endif$
+        </div>
+        <br>
+    </div>
+$endfor$

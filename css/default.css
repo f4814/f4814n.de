@@ -1,0 +1,89 @@
+body {
+    margin:1em auto;
+    max-width:40em;
+    padding:0 .62em;
+    font:1.2em/1.62 monospace;
+}
+
+h1,h2,h3 {
+        line-height:1.2;
+}
+
+.header-list {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.header-link {
+    display: table-cell;
+}
+
+a.title:visited, a.title:link, a.title:link:visited, a.title:visited:active {
+    text-decoration: none;;
+    color: black;
+}
+
+/* Pandoc source code */
+.sourceCode {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.lineNumbers {
+    color: #535353;
+}
+
+/* Syntax hightlight */
+/* Function */
+.fu {
+    color: #0ec9a7;
+}
+
+/* Keyword */
+.kw {
+    color: #78e70e;
+}
+
+/* Data Type */
+.dt {
+    color: #ff0000;
+}
+
+/* Import */
+.im {
+    color: #78e70e;
+}
+
+.cf {
+    color: #289cd5;
+}
+
+.bu {
+    color: #0ec9a7;
+}
+
+/* String */
+.st {
+    color: #e1a126;
+}
+
+/* Operator */
+.op {
+    color: #289cd5;
+}
+
+.dv {
+    color: #e1a126;
+}
+
+/* Variable */
+.va {
+    color: #0ec9a7;
+}
+
+@media print{
+    body{
+            max-width:none
+    }
+}
