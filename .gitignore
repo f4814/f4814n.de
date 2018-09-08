@@ -1,4 +1,6 @@
 .stack-work
+drafts/
+
 *.DS_Store
 *.o
 *.hi
