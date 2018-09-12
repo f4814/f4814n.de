@@ -9,6 +9,7 @@ h1,h2,h3 {
         line-height:1.2;
 }
 
+/* Header */
 .header-list {
     width: 100%;
     display: table;
@@ -24,7 +25,16 @@ a.title:visited, a.title:link, a.title:link:visited, a.title:visited:active {
     color: black;
 }
 
-/* Pandoc source code */
+/* Post List */
+.post h3 {
+    display: inline;
+}
+
+.post-meta {
+    color: DimGray;
+}
+
+/* Pandoc source code blocks */
 .sourceCode {
     background-color: #000000;
     color: #FFFFFF;
